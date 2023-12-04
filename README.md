@@ -1,4 +1,4 @@
-# OpenBrainTB, an Arduino Trigger Box for TMS and Biopac
+# Silicon Spike, an Arduino Trigger Box for TMS and Biopac
 
 ## Description
 The Arduino Trigger Box project, developed at the Center for Cognitive Neuroscience, University of Bologna, offers a reliable and efficient solution for triggering Transcranial Magnetic Stimulation (TMS) and Biopac systems. Designed by Giuseppe Ippolito and Thomas Quettier, this open-source initiative aims to provide the scientific community with a cost-effective and customizable trigger box solution.
