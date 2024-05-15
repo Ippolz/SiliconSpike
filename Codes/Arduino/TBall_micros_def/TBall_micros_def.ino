@@ -146,7 +146,7 @@ void processCommand(String command) {
       TriggerDuration = 2000;
     } 
 
-    String condstr = Serial.readStringUntil('.');
+    String condstr = Serial.readStringUntil('\n');
     condstr.trim();
 
     if (command.startsWith("dpTMS")) {
