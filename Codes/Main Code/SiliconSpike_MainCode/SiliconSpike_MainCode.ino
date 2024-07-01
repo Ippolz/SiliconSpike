@@ -1,4 +1,4 @@
-// SILICON SPIKE triggerbox developed by Giuseppe Ippolito and Thomas Quettier
+// Triggerbox developed by Giuseppe Ippolito and Thomas Quettier
 // Original article here: XXXXX
 
 #define MAX_COMMAND_LENGTH 64  // Maximum length of a command
@@ -15,7 +15,7 @@ int MarkerDuration1 = 2000, MarkerDuration2 = 2000, MarkerDuration3 = 2000, Mark
 int test = 0, psw = 0;
 
 char inputBuffer[MAX_COMMAND_LENGTH];  // Buffer to store incoming characters
-int bufferIndex = 0;                  
+int bufferIndex = 0;                   // Index to track the position in the buffer
 
 void setup() {
   pinMode(LedPin, OUTPUT);  // Debug LED
@@ -23,7 +23,7 @@ void setup() {
   pinMode(BNC2, OUTPUT);    // Initialize BNC2 (or TS)
   pinMode(MrkPin, OUTPUT);  // Initialize the markers BNC
   Serial.begin(115200);
-  Serial.setTimeout(5);  // Timeout for the Serial Monitor
+  Serial.setTimeout(5);  // Set a timeout for the Serial Monitor (for faster code execution)
 }
 
 
@@ -141,16 +141,12 @@ void processCommand(String command) {
     } else if (command.startsWith("SET,MRK9,")) {
       MarkerDuration9 = command.substring(9).toInt();
       MarkerDuration9 = MarkerDuration9 * 1000;
-    } else if (command.equals("SET,noMRK")) {
-      TriggerDuration = 1000;
-    } else if (command.equals("SET,MRK")) {
-      TriggerDuration = 2000;
     } 
 
-    String condstr = Serial.readStringUntil('.');
+    String condstr = Serial.readStringUntil('\n');
     condstr.trim();
 
-    if (command.startsWith("dpTMS")) {
+    if (command.startsWith("dcTMS")) {
       while (true) {
         if (Serial.available() > 0) {
           char val = Serial.read();
