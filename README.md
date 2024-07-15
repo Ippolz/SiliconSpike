@@ -1,7 +1,7 @@
-# Silicon Spike, an Arduino Trigger Box for TMS and Biopac
+# Silicon Spike, an Arduino Trigger Box for TMS
 
 ## Description
-The Arduino Trigger Box project, developed at the Center for Cognitive Neuroscience, University of Bologna, offers a reliable and efficient solution for triggering Transcranial Magnetic Stimulation (TMS) and Biopac systems. Designed by Giuseppe Ippolito and Thomas Quettier, this open-source initiative aims to provide the scientific community with a cost-effective and customizable trigger box solution.
+The Arduino Trigger Box project, developed at the Center for Cognitive Neuroscience of Cesena (University of Bologna), offers a reliable and efficient solution for triggering Transcranial Magnetic Stimulation (TMS) and Biopac systems. Designed by Giuseppe Ippolito and Thomas Quettier, this open-source initiative aims to provide the scientific community with a cost-effective and customizable trigger box solution.
 
 ## Features
 - Easy integration with TMS and Biopac systems.
@@ -9,20 +9,10 @@ The Arduino Trigger Box project, developed at the Center for Cognitive Neuroscie
 - Open-source code for community collaboration and improvement.
 - Detailed setup and usage instructions.
 
-## Installation (comming soon)
-1. **Clone the Repository:** Use `git clone` to download the project files.
-2. **Hardware Assembly:** Follow the hardware assembly guide provided in the `HardwareSetup.md` file.
-3. **Software Setup:** Load the Arduino code onto your Arduino device using the Arduino IDE.
-4. **Testing:** Perform a test run as detailed in the `TestingProtocol.md`.
-
-## Usage  (comming soon)
-- **Configuring Trigger Sequences:** Edit the Arduino script to customize the trigger sequences according to your experimental needs.
-- **Running the System:** Instructions for running the system are provided in `UsageInstructions.md`.
-
 ## Citing Our Work  (comming soon)
 If you use our Arduino Trigger Box in your research, we kindly ask you to acknowledge our work. Please cite the following paper:
 
-Quettier, T., & Ippolito, G. (Year). Arduino Trigger Box for TMS and Biopac: An Open-Source Solution. Journal/Conference Name, Volume(Issue), Pages. URL to paper (if available)
+Ippolito G. Quettier T. Borgomaneri S. Romei V. Silicon Spike: an Arduino-based low-cost and open-access triggerbox to precisely control TMS devices, XXXXX
 
 ## License
 This project is licensed under the [SPECIFY LICENSE TYPE - e.g., MIT, GPL, Apache, etc.]. For more details, see the `LICENSE.md` file.
