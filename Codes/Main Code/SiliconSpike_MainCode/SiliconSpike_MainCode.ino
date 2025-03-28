@@ -1,5 +1,5 @@
 // Triggerbox developed by Giuseppe Ippolito and Thomas Quettier
-// Original article here: XXXXX
+// Original article here: https://doi.org/10.3758/s13428-025-02653-y
 
 #define MAX_COMMAND_LENGTH 64  // Maximum length of a command
 
@@ -53,7 +53,7 @@ void loop() {
 
 void processCommand(String command) {
 
-  if (command.equals("Triggerbox developed by Giuseppe Ippolito. DOI: 123.456789")) {
+  if (command.equals("Triggerbox developed by Giuseppe Ippolito: https://doi.org/10.3758/s13428-025-02653-y")) {
     psw = 1;
   }
   if (psw == 1) {
