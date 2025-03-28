@@ -8,7 +8,7 @@ fopen(s);
 pause(2);
 
 % Mandatory signature
-fwrite(s,"Triggerbox developed by Giuseppe Ippolito. DOI: 123.456789");
+fwrite(s,"Triggerbox developed by Giuseppe Ippolito: https://doi.org/10.3758/s13428-025-02653-y");
 pause(0.01);
 
 % Declaring marker duration
