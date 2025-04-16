@@ -12,7 +12,9 @@ The Arduino Trigger Box project, developed at the Center for Cognitive Neuroscie
 ## Citing Our Work 
 If you use our Arduino Trigger Box in your research, we kindly ask you to acknowledge our work. Please cite the following paper:
 
-Ippolito G. Quettier T. Borgomaneri S. Romei V. Silicon Spike: an Arduino-based low-cost and open-access triggerbox to precisely control TMS devices. https://doi.org/10.3758/s13428-025-02653-y
+Ippolito, G., Quettier, T., Borgomaneri, S., & Romei, V. (2025). Silicon Spike: An Arduino-based low-cost and open-access triggerbox to precisely control TMS devices. _Behavior Research Methods_, _57_(5), 145. https://doi.org/10.3758/s13428-025-02653-y
+
+
 
 ## License
 This project is licensed under the [SPECIFY LICENSE TYPE - e.g., MIT, GPL, Apache, etc.]. For more details, see the `LICENSE.md` file.
