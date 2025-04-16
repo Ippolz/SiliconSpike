@@ -4,8 +4,8 @@
 #define MAX_COMMAND_LENGTH 64  // Maximum length of a command
 
 // Pins setting
-int LedPin = 12;
-int BNC1 = 9, BNC2 = 10, MrkPin = 11;
+int LedPin = 3;
+int BNC1 = 9, BNC2 = 8, MrkPin = 7;
 
 // Variables setting
 int TriggerDuration = 2000;
